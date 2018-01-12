@@ -1,0 +1,11 @@
+{
+  "name": "drone_project",
+  "version": "1.0.0",
+  "description": "This is my Quest project where I will be hacking into a Parrot AR Drone 2.0 for facial and speech recognition",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vanessa Chen",
+  "license": "ISC"
+}

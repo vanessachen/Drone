@@ -1,0 +1,17 @@
+
+<!-- 
+-takes image created in DroneWebServer.js and if saved into 'public' directory, it will be returned when requested
+-setting header so the page does not get cached
+-renders image and places it into an iframe (handled by index.html) which refreshed regularly
+-->
+
+
+<head>
+    <meta http-Equiv="Cache-Control" Content="no-cache" /> 
+    <meta http-Equiv="Pragma" Content="no-cache" />
+    <meta http-Equiv="Expires" Content="0" />
+    <meta http-Equiv="refresh" Content="1" />
+</head>
+<body>
+<img src="http://localhost:3000/DroneImage.png"/>
+<body>
